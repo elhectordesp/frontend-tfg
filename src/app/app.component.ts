@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ChatbotService } from './services/chatbot.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,22 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'frontend';
+
+  constructor(private chatbotService: ChatbotService) {}
+
+  crearChatbot() {
+    this.chatbotService.crearChatbot().subscribe((data) => {
+      console.log(data);
+    });
+    
+  }
+
+  borrarChatbot() {
+
+    console.log('entro aquu');
+    this.chatbotService.borrarChatbot().subscribe((data) => {
+      console.log(data);
+    })
+  }
+  
 }

@@ -1,0 +1,68 @@
+mat-card {
+    background: white;
+    width: 50vw;
+    height: 70vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+body {
+    align-content: center;
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+
+.inputfile + label {
+    position:relative;
+    overflow:hidden;
+    cursor:pointer;
+    text-align:center;
+    background-color:#83b81a;
+    color:#fff;display:block;
+    width:197px;
+    height:31px;
+    font-size:18px;
+    line-height:30px;
+    float:left;
+    display: inline-block;
+}
+
+
+
+.inputfile + label {
+	cursor: pointer; /* "hand" cursor */
+}
+
+.myButton {
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	background-color:#599bb3;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 32px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+        
+
