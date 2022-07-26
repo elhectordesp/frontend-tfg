@@ -1,0 +1,14 @@
+//Pregunta: 1 nombre: Elección múltiple
+::MEAN:: ¿Cuál forma parte del stack MEAN? 
+{
+=Angular
+~React
+~Next
+~No existe
+}
+
+//Pregunta: 2 nombre: Cuestiones numéricas
+¿Cuál es el valor de pi? - pon 3 decimales - 
+{
+#3.14159:0.0005
+}

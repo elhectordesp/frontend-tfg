@@ -15,15 +15,37 @@
           method="POST"
           enctype="multipart/form-data"
         >
-        <input type="file" name="file" id="file" class="inputfile" />
-        <label for="file" class="myButton">Elegir archivo</label>
-        <input type="submit" class="myButton" value="Subir archivo" />
-        <a (click)="borrarChatbot()" class="myButton">Borrar chatbot</a>
-        <a (click)="crearChatbot()" class="myButton">Crear chatbot</a>
-        <!--<a href="#" class="myButton">ELEGIR ARCHIVO</a>
-        <input type="file" name="file" id="file" class="inputfile" />-->
-        
-          <!--<input type="submit" value="Subir" />-->
+          <div
+            class="row"
+            style="
+              text-align: -webkit-center;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            "
+          >
+            <div class="col-sm-12">
+              <input type="file" name="file" id="file" class="inputfile" />
+              <label for="file" class="myButton">Elegir archivo</label>
+              <input type="submit" class="myButton" value="Subir archivo" />
+            </div>
+          </div>
+          <div
+            class="row"
+            style="
+              text-align: -webkit-center;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            "
+          >
+            <div class="col-sm-6">
+              <a (click)="borrarChatbot()" class="myButton">Borrar chatbot</a>
+            </div>
+            <div class="col-sm-6">
+              <a (click)="crearChatbot()" class="myButton">Crear chatbot</a>
+            </div>
+          </div>
         </form>
         <!--<button mat-raised-button color="primary" (click)="crearChatbot()">
           Primary
